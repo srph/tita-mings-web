@@ -30,6 +30,7 @@ html, body {
 	background-image: url('../img/bg.png');
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-size: cover;
 	background-color: #000;
 }
 
@@ -61,18 +62,16 @@ html, body {
 .head-wrapper .nav > .nav-links {
 	float: right;
 	list-style: none;
-	height: 100%;
-	font-size: 16px;
+	height: 30px;
+	font-size: 14px;
 }
 
 /* Nav links */
 .head-wrapper .nav > .nav-links > li {
-	padding-left: 3px;
-	padding-right: 3px;
-	margin-left: 3px;
-	margin-right: 3px;
-	height: 100%;
-	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+	height: 30px;
 }
 
 /* Nav links hover */
@@ -89,13 +88,25 @@ html, body {
 		-webkit-box-sizing: border-box;
 		-o-box-sizing: border-box;
 
-	border-bottom: 5px solid #03AEE4;
+	border-bottom: 3px solid #03AEE4;
 }
 
+@media (max-width:760px) {
+	.head-wrapper .nav > .nav-head a {
+		display: block;
+	}
+}
+
+/* Head desc */
 .head-wrapper .head-desc {
 	text-align: center;
 	width: 600px;
 	margin: 200px auto;
+}
+
+.head-wrapper .head-desc h1 {
+	font-size: 72px;
+	font-weight: 700;
 }
 
 /**

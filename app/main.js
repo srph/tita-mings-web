@@ -1,9 +1,10 @@
 define([
 	'angular',
 	'./ctrl/index',
-	'./srvc/index'
+	'./srvc/index',
+	'./dir/index',
 ], function(angular) {
 	'use strict';
 
-	return angular.module('app', ['app.ctrl', 'app.srvc']);
+	return angular.module('app', ['app.ctrl', 'app.srvc', 'app.dir']);
 });
