@@ -1,8 +1,69 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,200italic,300italic,400italic,600italic);
+
+/* HTML */
+html, body {
+	font-family: 'Source Sans Pro', 'Helvetica', 'Helvetica Neue', serif, sans-serif;
+}
+
+/**
+ * Color schemes
+ * blue/info - #03AEE4
+ * yellow/warning - #FFB800
+ * red/danger - #e92429
+ * green/success - #06ba8f
+ */
+
+/* Header */
 .head-wrapper {
 	height: 100%;
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	color: #fff;
 
 	background-image: url('../img/bg.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #000;
+}
+
+/* Nav a colors */
+.head-wrapper a {
+	color: #fff;
+}
+
+/* Nav container */
+.head-wrapper > .nav {
+	margin-top: 12px;
+	width: 100%;
+	height: 60px;
+}
+
+/* Nav header */
+.head-wrapper > .nav > .nav-head a {
+	font-size: 13px;
+	font-weight: 700;
+	color: #fff;
+}
+
+/* Nav links */
+.head-wrapper .nav > .nav-links > li {
+	padding-left: auto 5px;
+}
+
+/* Nav links hover */
+.head-wrapper .nav > .nav-links > li.active,
+.head-wrapper .nav > .nav-links > li:hover {
+	/* Hover transitions */
+	transition: all .5s;
+		-moz-transition: all .5s;
+		-webkit-transition: all .5s;
+		-o-transition: all .5s;
+
+	box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-o-box-sizing: border-box;
+
+	border-bottom: 5px solid #06ba8f;
 }
