@@ -1,0 +1,3 @@
+define(['./product/module'], function() {
+
+});

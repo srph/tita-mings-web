@@ -1,5 +1,9 @@
-define(['angular'], function(angular) {
+define([
+	'angular',
+	'./ctrl/index',
+	'./srvc/index'
+], function(angular) {
 	'use strict';
 
-	return angular.module('app', []);
+	return angular.module('app', ['app.ctrl', 'app.srvc']);
 });
