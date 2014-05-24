@@ -1,0 +1,19 @@
+ErrorDocument 404 /index.html
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} !(robots\.txt|sitemap\.xml(\.gz)?)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} \.(css|js|bmp|gif|ico|jpe?g|jpe|png|swf)$ [NC]
+RewriteRule .* - [L]
+
+RewriteRule ^index\.html$ - [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+
+</IfModule>

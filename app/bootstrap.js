@@ -29,7 +29,8 @@ requirejs.config({
 
 require([
 	'angular',
-	'./main'
+	'./main',
+	'./utils/routes'
 ],	function(angular, app) {
 	'use strict';
 

@@ -3,14 +3,18 @@ define(['../main'], function(app) {
 
 	return app.config([
 		'$routeProvider',
-		function($routeProvider) {
+		'$locationProvider',
+		function($routeProvider, $locationProvider) {
 
-		$routeProvider
-			.when('/', {
-				tempalteUrl: 'app/partials/products.html'
-			}).otherwise({
-				redirectTo: '/'
-			})
+			$routeProvider
+				.when('/', {
+					templateUrl: 'app/components/partials/products.html'
+				}).otherwise({
+					redirectTo: '/'
+				});
+
+			$locationProvider.html5Mode(true);
+			$locationProvider.hashPrefix('!#');
 
 		}
 		

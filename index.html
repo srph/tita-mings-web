@@ -7,7 +7,9 @@
 
 	<link type="text/css" rel="stylesheet" href="./assets/vendor/bootstrap/dist/css/bootstrap.min.css">
 	<link type="text/css" rel="stylesheet" href="./assets/css/stylesheet.css">
+	<meta name="fragment" content="!">
 	<title> Tita Mings </title>
+	<base href="/" />
 </head>
 
 <body>
@@ -15,6 +17,7 @@
 	<head-nav></head-nav>
 
 	<div class="container">
+		<ng-view></ng-view>
 	</div>
 
 	<script type="text/javascript" src="./assets/vendor/requirejs/require.js" data-main="./app/bootstrap.js"></script>
