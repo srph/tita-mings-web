@@ -3,7 +3,7 @@ define(['../module'], function(app) {
 
 	return app.controller('ProductCtrl', [
 		'$scope',
-		'ProductSrvc'
+		'ProductSrvc',
 		function($scope, ProductSrvc) {
 
 			$scope.products = ProductSrvc.list;

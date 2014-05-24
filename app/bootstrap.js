@@ -1,10 +1,10 @@
 requirejs.config({
-	baseUrl: '../assets/vendor',
 
 	paths: {
-		jquery: './',
-		bootstrap: './',
-		angular: './',
+		jquery: '../assets/vendor/jquery/dist/jquery.min',
+		bootstrap: '../assets/vendor/bootstrap/dist/js/bootstrap.min',
+		angular: '../assets/vendor/angular/angular.min',
+		ngRoute: '../assets/vendor/angular-route/angular-route.min'
 	},
 
 	shim: {
