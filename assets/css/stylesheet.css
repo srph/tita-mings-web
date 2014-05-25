@@ -19,8 +19,7 @@ html, body {
 
 /* Header */
 .head-wrapper {
-	height: 100%;
-	min-height: 100%;
+	height: 100vh;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -100,8 +99,15 @@ html, body {
 /* Head desc */
 .head-wrapper .head-desc {
 	text-align: center;
-	width: 600px;
-	margin: 200px auto;
+	vertical-align: top;
+	margin-top: 13%;
+	margin-bottom: 10%;
+}
+
+.head-wrapper .head-desc .container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
 }
 
 .head-wrapper .head-desc h1 {
@@ -141,8 +147,62 @@ html, body {
 		-o-transition: all .5s;
 }
 
-.btn-primary:hover
+/* Content */
+.content {
+	height: 100vh;
+	display: block;
+	background-color: #ddd;
+}
+.content-inner {
+	margin-top: 30px;
+}
+.img-center {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#about {
+	background-color: #03AEE4;
+	color: #fff;
+}
+/*
+ * Product
+ */
+#product {
+	background-color: #fff;
+}
+#product .col-md-4,
+#product .col-md-8 {
+	position: relative;
+	min-height: 1px;
+	padding-left: 0;
+	padding-right: 0;
+}
 
-.btn-primary {
-
+/*
+ * Headers Sizes
+ */
+h1 {
+	font-size: 72px;
+	font-weight: 700;
+}
+h2 {
+	font-size: 64px;
+	font-weight: 700;
+}
+h3 {
+	font-size: 48px;
+	font-weight: 700;
+}
+h4 {
+	font-size: 36px;
+	font-weight: 700;
+}
+h5 {
+	font-size: 24px;
+	font-weight: 700;
+}
+h6 {
+	font-size: 16px;
+	font-weight: 700;
 }
