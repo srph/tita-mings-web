@@ -172,7 +172,8 @@ html, body {
  * Content
  */
 .content {
-	height: 100vh;
+	min-height: 100vh;
+	height: auto;
 	display: block;
 	background-color: #ddd;
 }
