@@ -134,6 +134,10 @@ html, body {
 		-webkit-transition: all .5s;
 		-o-transition: all .5s;
 }
+.btn-group .btn:not(:first-child),
+.btn-group .btn:not(:last-child) {
+	z-index: 1000;
+}
 /* Set transparency */
 .btn-primary,
 .btn-success,
@@ -165,6 +169,18 @@ html, body {
 .open .dropdown-toggle.btn-success {
 	border: 1px solid #06ba8f;
 	background-color: #06ba8f;
+}
+/* Btn danger */
+.btn-danger {
+	border: 1px solid #e92429;
+}
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.open .dropdown-toggle.btn-danger {
+	border: 1px solid #e92429;
+	background-color: #e92429;
 }
 
 /**
@@ -218,6 +234,14 @@ html, body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	color: #fff;
+}
+.social-buttons {
+	margin-top: 15px;
+}
+.gplus {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*
