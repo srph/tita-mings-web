@@ -4,7 +4,9 @@ define([
 	'./product/module',
 	'./contact/module',
 	'./contact-media/module',
-	'./contact-map/module'
+	'./contact-map/module',
+	'./product-content/module',
+	'./product-list/module'
 ], function() {
 
 });
