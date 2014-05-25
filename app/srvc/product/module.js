@@ -7,7 +7,9 @@ define(['../module'], function(app) {
 
 			return {
 
-				list: null,
+				current: null,
+
+				list: [],
 
 				get: function() {
 					return $http.get('/app/data/products.json');

@@ -2,57 +2,75 @@
 	"products": [
 
 		{
+			"id": 1,
 			"name": "Product 1",
 			"price": "55$",
-			"image": "./assets/img/products/ex.jpg"
+			"image": "./assets/img/banner.gif",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non viverra felis, vel sollicitudin velit. Nam cursus scelerisque luctus. Suspendisse venenatis ipsum ac posuere fermentum. Proin eget accumsan purus, et scelerisque est. Maecenas eget adipiscing lacus. Aenean mi orci, tincidunt malesuada leo et, ultricies aliquet turpis. Aenean consequat hendrerit nulla, non sollicitudin elit hendrerit eget. Nam venenatis diam eros, ac porttitor ante molestie ut. In fringilla, ipsum nec adipiscing imperdiet, mi sapien faucibus quam, consequat interdum orci ligula vitae sapien. Pellentesque sagittis, sem malesuada consectetur tincidunt, urna massa suscipit dolor, eget luctus nibh justo ac tortor. Morbi tempus sem id diam sodales cursus. In sed pellentesque mauris, vitae convallis neque."
 		},
 
 		{
+			"id": 2,
 			"name": "Product 2",
 			"price": "55$",
-			"image": "./assets/img/products/ex.jpg"
+			"image": "./assets/img/banner.gif",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non viverra felis, vel sollicitudin velit. Nam cursus scelerisque luctus. Suspendisse venenatis ipsum ac posuere fermentum. Proin eget accumsan purus, et scelerisque est. Maecenas eget adipiscing lacus. Aenean mi orci, tincidunt malesuada leo et, ultricies aliquet turpis. Aenean consequat hendrerit nulla, non sollicitudin elit hendrerit eget. Nam venenatis diam eros, ac porttitor ante molestie ut. In fringilla, ipsum nec adipiscing imperdiet, mi sapien faucibus quam, consequat interdum orci ligula vitae sapien. Pellentesque sagittis, sem malesuada consectetur tincidunt, urna massa suscipit dolor, eget luctus nibh justo ac tortor. Morbi tempus sem id diam sodales cursus. In sed pellentesque mauris, vitae convallis neque."
 		},
 
 		{
+			"id": 3,
 			"name": "Product 1",
 			"price": "55$",
-			"image": "./assets/img/products/ex.jpg"
+			"image": "./assets/img/banner.gif",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non viverra felis, vel sollicitudin velit. Nam cursus scelerisque luctus. Suspendisse venenatis ipsum ac posuere fermentum. Proin eget accumsan purus, et scelerisque est. Maecenas eget adipiscing lacus. Aenean mi orci, tincidunt malesuada leo et, ultricies aliquet turpis. Aenean consequat hendrerit nulla, non sollicitudin elit hendrerit eget. Nam venenatis diam eros, ac porttitor ante molestie ut. In fringilla, ipsum nec adipiscing imperdiet, mi sapien faucibus quam, consequat interdum orci ligula vitae sapien. Pellentesque sagittis, sem malesuada consectetur tincidunt, urna massa suscipit dolor, eget luctus nibh justo ac tortor. Morbi tempus sem id diam sodales cursus. In sed pellentesque mauris, vitae convallis neque."
 		},
 
 		{
+			"id": 4,
 			"name": "Product 1",
 			"price": "55$",
-			"image": "./assets/img/products/ex.jpg"
+			"image": "./assets/img/banner.gif",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non viverra felis, vel sollicitudin velit. Nam cursus scelerisque luctus. Suspendisse venenatis ipsum ac posuere fermentum. Proin eget accumsan purus, et scelerisque est. Maecenas eget adipiscing lacus. Aenean mi orci, tincidunt malesuada leo et, ultricies aliquet turpis. Aenean consequat hendrerit nulla, non sollicitudin elit hendrerit eget. Nam venenatis diam eros, ac porttitor ante molestie ut. In fringilla, ipsum nec adipiscing imperdiet, mi sapien faucibus quam, consequat interdum orci ligula vitae sapien. Pellentesque sagittis, sem malesuada consectetur tincidunt, urna massa suscipit dolor, eget luctus nibh justo ac tortor. Morbi tempus sem id diam sodales cursus. In sed pellentesque mauris, vitae convallis neque."
 		},
 
 		{
+			"id": 5,
 			"name": "Product 1",
 			"price": "55$",
-			"image": "./assets/img/products/ex.jpg"
+			"image": "./assets/img/banner.gif",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non viverra felis, vel sollicitudin velit. Nam cursus scelerisque luctus. Suspendisse venenatis ipsum ac posuere fermentum. Proin eget accumsan purus, et scelerisque est. Maecenas eget adipiscing lacus. Aenean mi orci, tincidunt malesuada leo et, ultricies aliquet turpis. Aenean consequat hendrerit nulla, non sollicitudin elit hendrerit eget. Nam venenatis diam eros, ac porttitor ante molestie ut. In fringilla, ipsum nec adipiscing imperdiet, mi sapien faucibus quam, consequat interdum orci ligula vitae sapien. Pellentesque sagittis, sem malesuada consectetur tincidunt, urna massa suscipit dolor, eget luctus nibh justo ac tortor. Morbi tempus sem id diam sodales cursus. In sed pellentesque mauris, vitae convallis neque."
 		},
 
 		{
+			"id": 6,
 			"name": "Product 1",
 			"price": "55$",
-			"image": "./assets/img/products/ex.jpg"
+			"image": "./assets/img/banner.gif",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non viverra felis, vel sollicitudin velit. Nam cursus scelerisque luctus. Suspendisse venenatis ipsum ac posuere fermentum. Proin eget accumsan purus, et scelerisque est. Maecenas eget adipiscing lacus. Aenean mi orci, tincidunt malesuada leo et, ultricies aliquet turpis. Aenean consequat hendrerit nulla, non sollicitudin elit hendrerit eget. Nam venenatis diam eros, ac porttitor ante molestie ut. In fringilla, ipsum nec adipiscing imperdiet, mi sapien faucibus quam, consequat interdum orci ligula vitae sapien. Pellentesque sagittis, sem malesuada consectetur tincidunt, urna massa suscipit dolor, eget luctus nibh justo ac tortor. Morbi tempus sem id diam sodales cursus. In sed pellentesque mauris, vitae convallis neque."
 		},
 
 		{
+			"id": 7,
 			"name": "Product 1",
 			"price": "55$",
-			"image": "./assets/img/products/ex.jpg"
+			"image": "./assets/img/banner.gif",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non viverra felis, vel sollicitudin velit. Nam cursus scelerisque luctus. Suspendisse venenatis ipsum ac posuere fermentum. Proin eget accumsan purus, et scelerisque est. Maecenas eget adipiscing lacus. Aenean mi orci, tincidunt malesuada leo et, ultricies aliquet turpis. Aenean consequat hendrerit nulla, non sollicitudin elit hendrerit eget. Nam venenatis diam eros, ac porttitor ante molestie ut. In fringilla, ipsum nec adipiscing imperdiet, mi sapien faucibus quam, consequat interdum orci ligula vitae sapien. Pellentesque sagittis, sem malesuada consectetur tincidunt, urna massa suscipit dolor, eget luctus nibh justo ac tortor. Morbi tempus sem id diam sodales cursus. In sed pellentesque mauris, vitae convallis neque."
 		},
 
 		{
+			"id": 8,
 			"name": "Product 1",
 			"price": "55$",
-			"image": "./assets/img/products/ex.jpg"
+			"image": "./assets/img/banner.gif",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non viverra felis, vel sollicitudin velit. Nam cursus scelerisque luctus. Suspendisse venenatis ipsum ac posuere fermentum. Proin eget accumsan purus, et scelerisque est. Maecenas eget adipiscing lacus. Aenean mi orci, tincidunt malesuada leo et, ultricies aliquet turpis. Aenean consequat hendrerit nulla, non sollicitudin elit hendrerit eget. Nam venenatis diam eros, ac porttitor ante molestie ut. In fringilla, ipsum nec adipiscing imperdiet, mi sapien faucibus quam, consequat interdum orci ligula vitae sapien. Pellentesque sagittis, sem malesuada consectetur tincidunt, urna massa suscipit dolor, eget luctus nibh justo ac tortor. Morbi tempus sem id diam sodales cursus. In sed pellentesque mauris, vitae convallis neque."
 		},
 
 		{
+			"id": 9,
 			"name": "Product 1",
 			"price": "55$",
-			"image": "./assets/img/products/ex.jpg"
+			"image": "./assets/img/products/ex.gif",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non viverra felis, vel sollicitudin velit. Nam cursus scelerisque luctus. Suspendisse venenatis ipsum ac posuere fermentum. Proin eget accumsan purus, et scelerisque est. Maecenas eget adipiscing lacus. Aenean mi orci, tincidunt malesuada leo et, ultricies aliquet turpis. Aenean consequat hendrerit nulla, non sollicitudin elit hendrerit eget. Nam venenatis diam eros, ac porttitor ante molestie ut. In fringilla, ipsum nec adipiscing imperdiet, mi sapien faucibus quam, consequat interdum orci ligula vitae sapien. Pellentesque sagittis, sem malesuada consectetur tincidunt, urna massa suscipit dolor, eget luctus nibh justo ac tortor. Morbi tempus sem id diam sodales cursus. In sed pellentesque mauris, vitae convallis neque."
 		}
 
 	]

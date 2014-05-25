@@ -9,12 +9,11 @@ define(['../main'], function(app) {
 			$routeProvider
 				.when('/', {
 					templateUrl: 'app/components/index.html'
+				}).when('/product/:pid', {
+					templateUrl: 'app/components/index.html'
 				}).otherwise({
 					redirectTo: '/'
 				});
-
-			$locationProvider.html5Mode(true);
-			$locationProvider.hashPrefix('!#');
 
 		}
 		
