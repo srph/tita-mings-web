@@ -3,7 +3,8 @@ define([
 	'./about/module',
 	'./product/module',
 	'./contact/module',
-	'./contact-form/module',
-	], function() {
+	'./contact-media/module',
+	'./contact-map/module'
+], function() {
 
 });
