@@ -1,7 +1,7 @@
 define(['../module'], function(app) {
 	'use strict';
 
-	return app.directive('productList', [function() {
+	return app.directive('productContent', [function() {
 		return {
 
 			restrict: 'E',

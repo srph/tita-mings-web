@@ -1,17 +1,21 @@
 define(['../module'], function(app) {
 	'use strict';
 
-	return app.factory('ProductSrvc', [function() {
+	return app.factory('ProductSrvc', [
+		'$http',
+		function($http) {
 
-		return {
+			return {
 
-			list: [],
+				list: null,
 
-			get: function() {
-				return;
-			}
+				get: function() {
+					return $http.get('/app/data/products.json');
+				}
 
-		};
+			};
 
-	}]);
+		}
+
+	]);
 });

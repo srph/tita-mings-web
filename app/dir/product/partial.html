@@ -2,8 +2,14 @@
 	<div class="container">
 		<h1 class="text-center"> Products </h1>
 
-		<div class="content-inner">
-			<ng-view></ng-view>
+		<div class="row content-inner">
+			<div class="col-md-3">
+				<product-index></product-index>
+			</div>
+
+			<div class="col-md-9">
+				<ng-view></ng-view>
+			</div>
 		</div>
 	</div>
 </div>

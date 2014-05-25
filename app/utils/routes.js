@@ -8,7 +8,7 @@ define(['../main'], function(app) {
 
 			$routeProvider
 				.when('/', {
-					templateUrl: 'app/components/partials/products.html'
+					templateUrl: 'app/components/index.html'
 				}).otherwise({
 					redirectTo: '/'
 				});

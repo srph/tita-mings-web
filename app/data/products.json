@@ -53,7 +53,7 @@
 			"name": "Product 1",
 			"price": "55$",
 			"image": "./assets/img/products/ex.jpg"
-		},
+		}
 
 	]
 }

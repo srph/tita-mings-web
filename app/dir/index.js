@@ -6,7 +6,7 @@ define([
 	'./contact-media/module',
 	'./contact-map/module',
 	'./product-content/module',
-	'./product-list/module'
+	'./product-index/module'
 ], function() {
 
 });

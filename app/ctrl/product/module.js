@@ -6,7 +6,10 @@ define(['../module'], function(app) {
 		'ProductSrvc',
 		function($scope, ProductSrvc) {
 
-			$scope.products = ProductSrvc.list;
+			ProductSrvc.get().success(function(r) {
+				ProductSrvc.list = r;
+				$scope.products = ProductSrvc.list.products;
+			});
 
 		}
 	]);
