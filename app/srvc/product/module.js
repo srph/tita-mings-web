@@ -11,18 +11,16 @@ define(['../module'], function(app) {
 
 				current: null,
 
-				list: null,
+				list: [],
 
 				get: function(pid) {
 					var defer = $q.defer();
+					var obj = this;
 
-					$rootScope.$on('product.all.fetched', function(event, response) {
-						console.log(response);
-						this.list = response;
-						console.log(this.list);
+					$rootScope.$on('product.all.fetched', function(event) {
 
-						if ( this.list.indexOf(pid) === 0 ) {
-							this.current = this.list[pid];
+						if ( obj.list.indexOf(pid) === 0 ) {
+							obj.current = obj.list[pid];
 							defer.resolve();
 						} else {
 							defer.reject();
@@ -35,10 +33,11 @@ define(['../module'], function(app) {
 				all: function() {
 					var defer = $q.defer();
 					var request = $http.get('/app/data/products.json');
+					var obj = this;
 						
 					request.success(function(r) {
-						console.log(r.products);
-						$rootScope.$broadcast('product.all.fetched', r.products);
+						obj.list = r.products;
+						$rootScope.$broadcast('product.all.fetched');
 						defer.resolve();
 					});
 

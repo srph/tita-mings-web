@@ -1,5 +1,15 @@
-<div class="product-head">
-	<img ng-src="{{ product.image }}" class="img-responsive">
-	<h3 ng-bind="product.name"> </h3>
-	<p ng-bind="product.desc"></p>
+<div class="row content-inner" ng-controller="ProductCtrl">
+
+	<div class="col-md-3">
+		<product-index></product-index>
+	</div>
+
+	<div class="col-md-9">
+		<div class="product-head">
+			<img ng-src="{{ product.image }}" class="img-responsive">
+			<h3 ng-bind="product.name"> </h3>
+			<p ng-bind="product.desc"></p>
+		</div>
+	</div>
+
 </div>

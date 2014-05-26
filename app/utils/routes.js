@@ -17,9 +17,8 @@ define(['../main'], function(app) {
 				'$route',
 				'ProductSrvc',
 				function($route, ProductSrvc) {
-					console.log($route.current.params);
 					var id = $route.current.params.pid;
-					var pid = ( id == undefined )
+					var pid = ( id === undefined )
 						? 1
 						: id;
 
@@ -28,9 +27,13 @@ define(['../main'], function(app) {
 			];
 
 			$routeProvider.when('/', {
-				templateUrl: 'app/components/index.html'
+				templateUrl: '/app/components/index.html',
+				resolve: {
+					products: products,
+					product: product
+				}
 			}).when('/product/:pid', {
-				templateUrl: 'app/components/index.html',
+				templateUrl: '/app/components/index.html',
 				resolve: {
 					products: products,
 					product: product
