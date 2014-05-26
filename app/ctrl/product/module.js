@@ -23,10 +23,6 @@ define(['../module'], function(app) {
 			$scope.product = ProductSrvc.current;
 
 			console.log($scope.products);
-			$timeout(function() {
-				console.log($routeParams);
-			}, 1000);
-
 		}
 	]);
 });

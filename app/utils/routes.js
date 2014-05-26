@@ -14,13 +14,14 @@ define(['../main'], function(app) {
 			];
 
 			var product = [
-				'$routeParams',
+				'$route',
 				'ProductSrvc',
-				function($routeParams, ProductSrvc) {
-					console.log($routeParams);
-					var pid = ( $routeParams.pid == undefined )
+				function($route, ProductSrvc) {
+					console.log($route.current.params);
+					var id = $route.current.params.pid;
+					var pid = ( id == undefined )
 						? 1
-						: $routeParams.pid;
+						: id;
 
 					return ProductSrvc.get(pid);
 				}
