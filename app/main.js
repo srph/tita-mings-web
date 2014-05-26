@@ -9,5 +9,6 @@ define([
 
 	return angular.module('app', [
 		'ngRoute',
-		'app.ctrl', 'app.srvc', 'app.dir']);
+		'app.ctrl', 'app.srvc', 'app.dir'
+	]);
 });
