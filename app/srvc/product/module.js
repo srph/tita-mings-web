@@ -5,7 +5,8 @@ define(['../module'], function(app) {
 		'$http',
 		'$q',
 		'$rootScope',
-		function($http, $q, $rootScope) {
+		'$location',
+		function($http, $q, $rootScope, $location) {
 
 			return {
 
@@ -17,14 +18,17 @@ define(['../module'], function(app) {
 					var defer = $q.defer();
 					var obj = this;
 
+
 					$rootScope.$on('product.all.fetched', function(event) {
 
-						if ( obj.list.indexOf(pid) === 0 ) {
+						console.log('oe');
+
+						// if ( obj.list.indexOf(pid) === 0 ) {
 							obj.current = obj.list[pid];
 							defer.resolve();
-						} else {
-							defer.reject();
-						}
+						// }
+
+
 					});
 
 					return defer.promise;
@@ -37,11 +41,16 @@ define(['../module'], function(app) {
 						
 					request.success(function(r) {
 						obj.list = r.products;
+						console.log(obj);
 						$rootScope.$broadcast('product.all.fetched');
 						defer.resolve();
 					});
 
 					return defer.promise;
+				},
+
+				move: function(pid) {
+					return $location.path('/product/' + pid);
 				}
 
 			};

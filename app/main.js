@@ -7,8 +7,5 @@ define([
 ], function(angular, ngRoute) {
 	'use strict';
 
-	return angular.module('app', [
-		'ngRoute',
-		'app.ctrl', 'app.srvc', 'app.dir'
-	]);
+	return angular.module('app', ['ngRoute','app.ctrl', 'app.srvc', 'app.dir']);
 });

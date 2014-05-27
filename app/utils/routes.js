@@ -1,10 +1,10 @@
 define(['../main'], function(app) {
 	'use strict';
 
+
 	return app.config([
 		'$routeProvider',
-		'$locationProvider',
-		function($routeProvider, $locationProvider) {
+		function($routeProvider) {
 
 			var products = [
 				'ProductSrvc',
@@ -19,30 +19,34 @@ define(['../main'], function(app) {
 				function($route, ProductSrvc) {
 					var id = $route.current.params.pid;
 					var pid = ( id === undefined )
-						? 1
+						? 0
 						: id;
 
 					return ProductSrvc.get(pid);
 				}
 			];
 
-			$routeProvider.when('/', {
-				templateUrl: '/app/components/index.html',
-				resolve: {
-					products: products,
-					product: product
-				}
-			}).when('/product/:pid', {
-				templateUrl: '/app/components/index.html',
-				resolve: {
-					products: products,
-					product: product
-				}
-			}).otherwise({
-				redirectTo: '/'
-			});
+			$routeProvider
+				.when('/', {
+					templateUrl: 'app/components/index.html',
+					controller: 'ProductCtrl',
+					resolve: {
+						products: products,
+						product: product
+					}
+				})
+				.when('/product/:pid', {
+					templateUrl: 'app/components/index.html',
+					controller: 'ProductCtrl',
+					resolve: {
+						products: products,
+						product: product
+					}
+				})
+				.otherwise({
+					redirectTo: '/'
+				});
 
-		}
-		
+		}		
 	]);
 });

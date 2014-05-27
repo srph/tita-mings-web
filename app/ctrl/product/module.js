@@ -10,6 +10,10 @@ define(['../module'], function(app) {
 			$scope.product = ProductSrvc.current;
 
 			console.info($scope.products);
+
+			$scope.move = function(pid) {
+				ProductSrvc.move(pid);
+			}
 		}
 	]);
 });

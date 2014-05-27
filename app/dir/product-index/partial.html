@@ -1,5 +1,5 @@
 <div class="product-list">
-	<div class="product-list-item" ng-repeat="item in products" ng-class="{'active': product.id == item.id}">
+	<div class="product-list-item" ng-repeat="item in products" ng-class="{'active': product.id == item.id}" ng-click="move(item.id - 1)">
 		<h5 ng-bind="item.name"> </h5>
 	</div>
 </div>
