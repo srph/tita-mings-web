@@ -6,9 +6,9 @@ define(['../module', 'jquery'], function(app, $) {
 
 			restrict: 'E',
 			templateUrl: 'app/dir/product-index/partial.html',
-			link: function(scope, el) {
+			controller: ['$scope', function($scope) {
 				//
-			}
+			}]
 
 		};
 	}]);
