@@ -45,7 +45,7 @@
 			"id": 6,
 			"name": "Leche Flan",
 			"price": "55$",
-			"image": "./assets/img/products/leche-plan.jpg",
+			"image": "./assets/img/products/leche-flan.jpg",
 			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non viverra felis, vel sollicitudin velit. Nam cursus scelerisque luctus. Suspendisse venenatis ipsum ac posuere fermentum. Proin eget accumsan purus, et scelerisque est. Maecenas eget adipiscing lacus. Aenean mi orci, tincidunt malesuada leo et, ultricies aliquet turpis. Aenean consequat hendrerit nulla, non sollicitudin elit hendrerit eget. Nam venenatis diam eros, ac porttitor ante molestie ut. In fringilla, ipsum nec adipiscing imperdiet, mi sapien faucibus quam, consequat interdum orci ligula vitae sapien. Pellentesque sagittis, sem malesuada consectetur tincidunt, urna massa suscipit dolor, eget luctus nibh justo ac tortor. Morbi tempus sem id diam sodales cursus. In sed pellentesque mauris, vitae convallis neque."
 		},
 
