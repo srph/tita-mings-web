@@ -33,7 +33,6 @@ html, body {
 	background-color: #000;
 	background-attachment: fixed;
 }
-
 /* Nav a colors */
 .head-wrapper a {
 	color: #fff;
@@ -206,6 +205,9 @@ html, body {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+}
+.img-bottom-margin {
+	margin-bottom: 24px;
 }
 #about {
 	background-color: #03AEE4;

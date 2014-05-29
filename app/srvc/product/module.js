@@ -21,8 +21,6 @@ define(['../module'], function(app) {
 
 					$rootScope.$on('product.all.fetched', function(event) {
 
-						console.log('oe');
-
 						// if ( obj.list.indexOf(pid) === 0 ) {
 							obj.current = obj.list[pid];
 							defer.resolve();
@@ -41,7 +39,6 @@ define(['../module'], function(app) {
 						
 					request.success(function(r) {
 						obj.list = r.products;
-						console.log(obj);
 						$rootScope.$broadcast('product.all.fetched');
 						defer.resolve();
 					});

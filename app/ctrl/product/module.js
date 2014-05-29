@@ -9,8 +9,6 @@ define(['../module'], function(app) {
 			$scope.products = ProductSrvc.list;
 			$scope.product = ProductSrvc.current;
 
-			console.info($scope.products);
-
 			$scope.move = function(pid) {
 				ProductSrvc.move(pid);
 			}
